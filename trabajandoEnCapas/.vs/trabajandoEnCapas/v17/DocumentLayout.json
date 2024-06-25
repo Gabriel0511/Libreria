@@ -1,0 +1,204 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\gcasa\\source\\repos\\trabajandoEnCapas\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{54C9E697-CF25-443C-9D02-E8F60CAD369A}|Presentacion\\Presentacion.csproj|c:\\users\\gcasa\\source\\repos\\trabajandoencapas\\presentacion\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54C9E697-CF25-443C-9D02-E8F60CAD369A}|Presentacion\\Presentacion.csproj|solutionrelative:presentacion\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54C9E697-CF25-443C-9D02-E8F60CAD369A}|Presentacion\\Presentacion.csproj|c:\\users\\gcasa\\source\\repos\\trabajandoencapas\\presentacion\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{54C9E697-CF25-443C-9D02-E8F60CAD369A}|Presentacion\\Presentacion.csproj|solutionrelative:presentacion\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54C9E697-CF25-443C-9D02-E8F60CAD369A}|Presentacion\\Presentacion.csproj|C:\\Users\\gcasa\\source\\repos\\trabajandoEnCapas\\Presentacion\\FormLogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54C9E697-CF25-443C-9D02-E8F60CAD369A}|Presentacion\\Presentacion.csproj|solutionrelative:Presentacion\\FormLogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5A29177-AB00-4C88-B6EB-1069D231232D}|Negocios\\Negocios.csproj|C:\\Users\\gcasa\\source\\repos\\trabajandoEnCapas\\Negocios\\negUsuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5A29177-AB00-4C88-B6EB-1069D231232D}|Negocios\\Negocios.csproj|solutionrelative:Negocios\\negUsuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF16777D-106A-416B-B9CF-67AC6BE332C6}|Datos\\Datos.csproj|C:\\Users\\gcasa\\source\\repos\\trabajandoEnCapas\\Datos\\DatosUsuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF16777D-106A-416B-B9CF-67AC6BE332C6}|Datos\\Datos.csproj|solutionrelative:Datos\\DatosUsuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5A29177-AB00-4C88-B6EB-1069D231232D}|Negocios\\Negocios.csproj|C:\\Users\\gcasa\\source\\repos\\trabajandoEnCapas\\Negocios\\negCarritos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5A29177-AB00-4C88-B6EB-1069D231232D}|Negocios\\Negocios.csproj|solutionrelative:Negocios\\negCarritos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54C9E697-CF25-443C-9D02-E8F60CAD369A}|Presentacion\\Presentacion.csproj|c:\\users\\gcasa\\source\\repos\\trabajandoencapas\\presentacion\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{54C9E697-CF25-443C-9D02-E8F60CAD369A}|Presentacion\\Presentacion.csproj|solutionrelative:presentacion\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54C9E697-CF25-443C-9D02-E8F60CAD369A}|Presentacion\\Presentacion.csproj|C:\\Users\\gcasa\\source\\repos\\trabajandoEnCapas\\presentacion\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54C9E697-CF25-443C-9D02-E8F60CAD369A}|Presentacion\\Presentacion.csproj|solutionrelative:presentacion\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54C9E697-CF25-443C-9D02-E8F60CAD369A}|Presentacion\\Presentacion.csproj|C:\\Users\\gcasa\\source\\repos\\trabajandoEnCapas\\Presentacion\\FormRegistro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54C9E697-CF25-443C-9D02-E8F60CAD369A}|Presentacion\\Presentacion.csproj|solutionrelative:Presentacion\\FormRegistro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF16777D-106A-416B-B9CF-67AC6BE332C6}|Datos\\Datos.csproj|C:\\Users\\gcasa\\source\\repos\\trabajandoEnCapas\\Datos\\DatosCarritos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF16777D-106A-416B-B9CF-67AC6BE332C6}|Datos\\Datos.csproj|solutionrelative:Datos\\DatosCarritos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54C9E697-CF25-443C-9D02-E8F60CAD369A}|Presentacion\\Presentacion.csproj|C:\\Users\\gcasa\\source\\repos\\trabajandoEnCapas\\presentacion\\formregistro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{54C9E697-CF25-443C-9D02-E8F60CAD369A}|Presentacion\\Presentacion.csproj|solutionrelative:presentacion\\formregistro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\gcasa\\source\\repos\\trabajandoEnCapas\\Presentacion\\Form1.cs",
+              "RelativeDocumentMoniker": "Presentacion\\Form1.cs",
+              "ToolTip": "C:\\Users\\gcasa\\source\\repos\\trabajandoEnCapas\\Presentacion\\Form1.cs",
+              "RelativeToolTip": "Presentacion\\Form1.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T03:58:10.749Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\gcasa\\source\\repos\\trabajandoEnCapas\\Presentacion\\Form1.cs",
+              "RelativeDocumentMoniker": "Presentacion\\Form1.cs",
+              "ToolTip": "C:\\Users\\gcasa\\source\\repos\\trabajandoEnCapas\\Presentacion\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Presentacion\\Form1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T03:55:56.246Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FormLogin.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\gcasa\\source\\repos\\trabajandoEnCapas\\Presentacion\\FormLogin.cs",
+              "RelativeDocumentMoniker": "Presentacion\\FormLogin.cs",
+              "ToolTip": "C:\\Users\\gcasa\\source\\repos\\trabajandoEnCapas\\Presentacion\\FormLogin.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Presentacion\\FormLogin.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T17:38:41.984Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "negCarritos.cs",
+              "DocumentMoniker": "C:\\Users\\gcasa\\source\\repos\\trabajandoEnCapas\\Negocios\\negCarritos.cs",
+              "RelativeDocumentMoniker": "Negocios\\negCarritos.cs",
+              "ToolTip": "C:\\Users\\gcasa\\source\\repos\\trabajandoEnCapas\\Negocios\\negCarritos.cs",
+              "RelativeToolTip": "Negocios\\negCarritos.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T22:05:34.941Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DatosUsuarios.cs",
+              "DocumentMoniker": "C:\\Users\\gcasa\\source\\repos\\trabajandoEnCapas\\Datos\\DatosUsuarios.cs",
+              "RelativeDocumentMoniker": "Datos\\DatosUsuarios.cs",
+              "ToolTip": "C:\\Users\\gcasa\\source\\repos\\trabajandoEnCapas\\Datos\\DatosUsuarios.cs",
+              "RelativeToolTip": "Datos\\DatosUsuarios.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEAAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T22:17:13.643Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "negUsuarios.cs",
+              "DocumentMoniker": "C:\\Users\\gcasa\\source\\repos\\trabajandoEnCapas\\Negocios\\negUsuarios.cs",
+              "RelativeDocumentMoniker": "Negocios\\negUsuarios.cs",
+              "ToolTip": "C:\\Users\\gcasa\\source\\repos\\trabajandoEnCapas\\Negocios\\negUsuarios.cs",
+              "RelativeToolTip": "Negocios\\negUsuarios.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T23:19:00.111Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FormLogin.cs",
+              "DocumentMoniker": "C:\\Users\\gcasa\\source\\repos\\trabajandoEnCapas\\Presentacion\\FormLogin.cs",
+              "RelativeDocumentMoniker": "Presentacion\\FormLogin.cs",
+              "ToolTip": "C:\\Users\\gcasa\\source\\repos\\trabajandoEnCapas\\Presentacion\\FormLogin.cs",
+              "RelativeToolTip": "Presentacion\\FormLogin.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T17:38:22.733Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FormRegistro.cs",
+              "DocumentMoniker": "C:\\Users\\gcasa\\source\\repos\\trabajandoEnCapas\\Presentacion\\FormRegistro.cs",
+              "RelativeDocumentMoniker": "Presentacion\\FormRegistro.cs",
+              "ToolTip": "C:\\Users\\gcasa\\source\\repos\\trabajandoEnCapas\\Presentacion\\FormRegistro.cs",
+              "RelativeToolTip": "Presentacion\\FormRegistro.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAACQAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T23:26:16.176Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DatosCarritos.cs",
+              "DocumentMoniker": "C:\\Users\\gcasa\\source\\repos\\trabajandoEnCapas\\Datos\\DatosCarritos.cs",
+              "RelativeDocumentMoniker": "Datos\\DatosCarritos.cs",
+              "ToolTip": "C:\\Users\\gcasa\\source\\repos\\trabajandoEnCapas\\Datos\\DatosCarritos.cs",
+              "RelativeToolTip": "Datos\\DatosCarritos.cs",
+              "ViewState": "AQIAAJAAAAAAAAAAAAAAAI4AAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T19:24:29.078Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "FormRegistro.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\gcasa\\source\\repos\\trabajandoEnCapas\\Presentacion\\FormRegistro.cs",
+              "RelativeDocumentMoniker": "Presentacion\\FormRegistro.cs",
+              "ToolTip": "C:\\Users\\gcasa\\source\\repos\\trabajandoEnCapas\\Presentacion\\FormRegistro.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Presentacion\\FormRegistro.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T23:23:42.225Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\gcasa\\source\\repos\\trabajandoEnCapas\\Presentacion\\Program.cs",
+              "RelativeDocumentMoniker": "Presentacion\\Program.cs",
+              "ToolTip": "C:\\Users\\gcasa\\source\\repos\\trabajandoEnCapas\\Presentacion\\Program.cs",
+              "RelativeToolTip": "Presentacion\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T17:43:12.623Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
