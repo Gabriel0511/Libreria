@@ -1,45 +1,106 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Data;
-using System.Data.OleDb;
+using System.Data.SqlClient;
 using Entidades;
 
 namespace Datos
 {
-    public class DatosProfesionales: DatosConexionBD
+    public class DatosProfesionales : DatosConexionBD
     {
         public int tiendaLibros(string accion, Libros objtiendaLibros)
         {
             int resultado = -1;
             string orden = string.Empty;
 
-            if (accion == "Alta")
-                orden = "insert into tiendaLibros values (" + objtiendaLibros.Titulo + ",'" + objtiendaLibros.Autor + ",'" + objtiendaLibros.Genero + ",'" + objtiendaLibros.Precio + ",'" + objtiendaLibros.Stock + ";";
-            if (accion == "Modificar")
-                orden = "update tiendaLibros set Titulo, Autor, Genero, Precio, Stock = '" + objtiendaLibros.Titulo + ",'" + objtiendaLibros.Autor + ",'" + objtiendaLibros.Genero + ",'" + objtiendaLibros.Precio + ",'" + objtiendaLibros.Stock + "'where id=" + objtiendaLibros.Id + ";";
-            if (accion == "Borrar")
-                orden = "delete from tiendaLibros where id=" + objtiendaLibros.Id + ";";
+            using (SqlCommand cmd = new SqlCommand())
+            {
+                cmd.Connection = conexion;
 
-            OleDbCommand cmd = new OleDbCommand(orden, conexion);
+                if (accion == "Alta")
+                {
+                    orden = "INSERT INTO Libros (Titulo, Autor, Genero, Precio, Stock) VALUES (@Titulo, @Autor, @Genero, @Precio, @Stock)";
+                }
+                else if (accion == "Modificar")
+                {
+                    orden = "UPDATE Libros SET Titulo = @Titulo, Autor = @Autor, Genero = @Genero, Precio = @Precio, Stock = @Stock WHERE Id = @Id";
+                    cmd.Parameters.AddWithValue("@Id", objtiendaLibros.id);
+                }
+                else if (accion == "Borrar")
+                {
+                    orden = "DELETE FROM Libros WHERE Id = @Id";
+                    cmd.Parameters.AddWithValue("@Id", objtiendaLibros.id);
+                }
 
-            try
-            {
-                abrirConexion();
-                resultado = cmd.ExecuteNonQuery();
-            }
-            catch (Exception e)
-            {
-                throw new Exception("Error al tratar de guardar, borrar o modificar de tiendaLibros", e);
-            }
-            finally
-            {
-                cerrarConexion();
-                cmd.Dispose();
+                cmd.CommandText = orden;
+
+                cmd.Parameters.AddWithValue("@Titulo", objtiendaLibros.titulo);
+                cmd.Parameters.AddWithValue("@Autor", objtiendaLibros.autor);
+                cmd.Parameters.AddWithValue("@Genero", objtiendaLibros.genero);
+                cmd.Parameters.AddWithValue("@Precio", objtiendaLibros.precio);
+                cmd.Parameters.AddWithValue("@Stock", objtiendaLibros.stock);
+
+                try
+                {
+                    abrirConexion();
+                    resultado = cmd.ExecuteNonQuery();
+                }
+                catch (Exception e)
+                {
+                    throw new Exception("Error al tratar de guardar, borrar o modificar en tiendaLibros", e);
+                }
+                finally
+                {
+                    cerrarConexion();
+                }
             }
             return resultado;
+        }
+
+        public DataSet listadoLibros(string cual)
+        {
+            string orden;
+            if (cual != "Todos")
+            {
+                orden = "SELECT * FROM Libros WHERE ID_Libros = @ID_Libros";
+            }
+            else
+            {
+                orden = "SELECT * FROM Libros";
+            }
+
+            using (SqlCommand cmd = new SqlCommand(orden, conexion))
+            {
+                if (cual != "Todos")
+                {
+                    int idLibro;
+                    if (int.TryParse(cual, out idLibro))
+                    {
+                        cmd.Parameters.AddWithValue("@ID_Libros", idLibro);
+                    }
+                    else
+                    {
+                        throw new ArgumentException("El parámetro 'cual' no es un número válido.");
+                    }
+                }
+
+                DataSet ds = new DataSet();
+                SqlDataAdapter da = new SqlDataAdapter(cmd);
+
+                try
+                {
+                    abrirConexion();
+                    da.Fill(ds);
+                }
+                catch (Exception e)
+                {
+                    throw new Exception("Error al listar Libros", e);
+                }
+                finally
+                {
+                    cerrarConexion();
+                }
+                return ds;
+            }
         }
     }
 }

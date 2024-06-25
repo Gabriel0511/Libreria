@@ -1,23 +1,18 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-using System.Data.OleDb;
 using System.Data;
+using System.Data.SqlClient;
 
 namespace Datos
 {
     public class DatosConexionBD
     {
-        public OleDbConnection conexion;
-        public string cadenaConexion = @"Provider=Microsoft.ACE.OLEDB.12.0;DataSource=localhost;Persist Security Info=True";
+        public SqlConnection conexion;
 
         public DatosConexionBD()
         {
-            conexion = new OleDbConnection(cadenaConexion);
+            conexion = new SqlConnection("server=DESKTOP-FIAAP59; database=tiendaLibros; integrated security=true");
         }
+
         public void abrirConexion()
         {
             try
@@ -25,9 +20,9 @@ namespace Datos
                 if (conexion.State == ConnectionState.Broken || conexion.State == ConnectionState.Closed)
                     conexion.Open();
             }
-            catch (Exception e)
+            catch (SqlException e)
             {
-                throw new Exception("Error al tratar de abrir la conexión", e);
+                throw new Exception("Error al tratar de abrir la conexión a la base de datos", e);
             }
         }
 
@@ -38,10 +33,16 @@ namespace Datos
                 if (conexion.State == ConnectionState.Open)
                     conexion.Close();
             }
-            catch (Exception e)
+            catch (SqlException e)
             {
-                throw new Exception("Error al tratar de cerrar la conexión", e);
+                throw new Exception("Error al tratar de cerrar la conexión a la base de datos", e);
             }
+        }
+
+        public SqlConnection ObtenerConexion()
+        {
+            return conexion;
         }
     }
 }
+

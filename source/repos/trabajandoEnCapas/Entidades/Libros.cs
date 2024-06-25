@@ -9,52 +9,52 @@ namespace Entidades
     public class Libros
     {
         #region Atributos
-        private int id;
-        private int stock;
-        private string titulo;
-        private string autor;
-        private string genero;
-        private decimal precio;
+        private int ID_Libros;
+        private int Stock;
+        private string Titulo;
+        private string Autor;
+        private string Genero;
+        private decimal Precio;
         #endregion
 
         public Libros()
         {
-            id = 0;
-            stock = 0;
-            precio = 0;
-            titulo = string.Empty;
-            autor = string.Empty;
-            genero = string.Empty;
+            ID_Libros = 0;
+            Stock = 0;
+            Precio = 0;
+            Titulo = string.Empty;
+            Autor = string.Empty;
+            Genero = string.Empty;
         }
 
-        public int Id
+        public int id
         {
-            get { return id; }
+            get { return ID_Libros; }
         }
  
-        public int Stock
+        public int stock
         {
-            get { return stock; }
+            get { return Stock; }
         }
-        public decimal Precio
+        public decimal precio
         {
-            get { return precio; }
-            set { precio = value; }
+            get { return Precio; }
+            set { Precio = value; }
         }
-        public string Titulo
+        public string titulo
         {
-            get { return titulo; }
-            set { titulo = value; }
+            get { return Titulo; }
+            set { Titulo = value; }
         }
-        public string Autor
+        public string autor
         {
-            get { return autor; }
-            set { autor = value; }
+            get { return Autor; }
+            set { Autor = value; }
         }
-        public string Genero
+        public string genero
         {
-            get { return genero; }
-            set { genero = value; }
+            get { return Genero; }
+            set { Genero = value; }
         }
     }
 }

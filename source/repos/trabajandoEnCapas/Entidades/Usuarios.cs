@@ -1,55 +1,25 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Entidades
 {
     public class Usuarios
     {
-        private int id;
-        private string nombre;
-        private string correo;
-        private string direccion;
-        private string carrito;
+        public int Id { get; private set; }
+        public string NombreUsuario { get; set; }
+        public string Contrasena { get; set; }
 
         public Usuarios()
         {
-            id = 0;
-            nombre = string.Empty;
-            correo = string.Empty;
-            direccion = string.Empty;
-            carrito = string.Empty;
+            Id = 0;
+            NombreUsuario = string.Empty;
+            Contrasena = string.Empty;
         }
 
-        public int Id
+        public Usuarios(int id, string nombreUsuario, string contrasena)
         {
-            get { return id; }
-        }
-
-        public string Nombre
-        {
-            get { return nombre; }
-            set { nombre = value; }
-        }
-
-        public string Correo
-        {
-            get { return correo; }
-            set { correo = value; }
-        }
-
-        public string Direccion
-        {
-            get { return direccion; }
-            set { direccion = value; }
-        }
-
-        public string Carrito
-        {
-            get { return carrito; }
-            set { carrito = value; }
+            Id = id;
+            NombreUsuario = nombreUsuario;
+            Contrasena = contrasena;
         }
     }
 }
